@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the scrollbar thumb in Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+  }
+
+::-webkit-scrollbar {
+    /* width: 2px; */
+    display: none;
+}
